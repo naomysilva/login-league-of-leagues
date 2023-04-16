@@ -1,0 +1,15 @@
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+body,html {
+    margin: 0; /* Remova as margens padrão do body */
+      height: 100vh; /* Altura de 100% em relação à altura do viewport */
+      width: 100vw; /* Largura de 100% em relação à largura do viewport */
+}

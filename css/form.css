@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+.logo {
+    width: 32%;
+    margin: 32px;
+    margin-left: 140px;
+    display: flex;
+}
+
+input[type=name],
+input[type=senha]
+ {
+    padding: 3px;
+    height: 36px;
+    width: 57%;
+    border-radius: 5px;
+    background-color:#e5e4e2
+}
+
+.botoes {
+    display: flex;
+    gap: 11px;
+    flex-direction: row;
+}
+
+.botoes a {
+    color: blue;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: blue;
+    padding:6px 32px;
+    border-radius: 4px;
+}
+
+.google {
+    background-color:#e5e4e2;
+    padding:6px 32px;
+    border-radius: 4px;
+}
+
+.apple {
+    background-color:black;
+    padding:6px 32px;
+    border-radius: 4px;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.plano-fundo {
+    display: flex;
+    background-image: url("../imagens/wallpaper.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+span {
+    display: flex;
+    gap: 5px;
+    margin-right: 144px;
+}
+
+input:checked {
+background-color: red;
+}
+
+
+@media screen and (max-width: 1000px) {
+	main {
+        display: flex;
+        flex-direction: column;
+        background-image: url("../imagens/wallpaper.jpg");
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        color: white;
+
+    }
+
+    form {
+    }
+    .facebook {
+        background-color: blue;
+        padding:6px 27px;
+        border-radius: 4px;
+    }
+    
+    .google {
+        background-color:#e5e4e2;
+        padding:6px 27px;
+        border-radius: 4px;
+    }
+    
+    .apple {
+        background-color:black;
+        padding:6px 27px;
+        border-radius: 4px;
+    }
+    span {
+        display: flex;
+        gap: 5px;
+        margin-right: 118px;
+
+    }
+    
+
+}
